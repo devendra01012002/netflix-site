@@ -1,0 +1,292 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  
+}
+button{
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    height: 6vh;
+    width: 10vw;
+    
+}
+.logo img{
+    height: 4rem;
+    width: 10rem;
+    filter:brightness(200%);
+}
+.homepage{
+    height: 100vh;
+    width: 100vw;
+    background:url(https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png);
+    filter: brightness(80%);
+ 
+}
+.homepage2{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+    border-bottom: 8px solid gray;
+
+}
+.nav
+{
+    display: flex;
+    margin:0px 30px;
+    padding-top:30px;
+}
+.nav select{
+    margin-left: 60rem;
+    background-color: black;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 6vh;
+    width: 10vw;
+   
+}
+
+.headroot{
+    margin-left: 20vw;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.headroot .headword{
+   margin-right: 40px;
+   margin-left: 40px;
+   width: 800px;
+   height: 140px;
+}
+.headword h1{
+    font-size: 64px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+}
+ 
+ .watch{
+    height: 33px;
+    width: 800px;
+    margin:20px;
+    text-align: center;
+}
+
+.watch h2{
+    color: white;
+    font-size: 26px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.para{
+    height: 25px;
+    width: 800px;
+    margin:20px;
+    text-align: center;
+    text-align: center;
+
+
+}
+.para h3{
+    color:white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.searchbar
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: 745.42px;
+    height: 80px;
+}
+.searchbar input{
+    width: 450px;
+    height: 62px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid rgb(140, 140,140);
+    border-radius: 2px;
+    color: black;
+}
+.searchbar button
+{
+    width: 245.42px;
+    height: 73px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    border-radius:0px;
+}
+.tvpage{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+    border-bottom: 8px solid gray;
+    width: 100vw;
+}
+.headingtv{
+    text-align: center;
+    margin-top: 20vh;
+    color: white;
+    margin-left: 100px;
+    
+}
+.headingtv h1{
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+}
+.headingtv h2{
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 26px;
+}
+.mobile{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    width:100vw;
+    border-bottom:8px solid gray;
+}
+.mobilepara{
+     color:white;
+}
+.mobilepara h1{
+    font-size:50px ;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top:100px;
+}
+.mobilepara h2{
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 26px;
+}
+.livetv{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    background-color: black;
+    border-bottom: 8px solid gray;
+}
+.paralivetv{
+    
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:100px;
+    margin-top:100px;
+}
+.paralivetv h1{
+    font-size: 50px;
+}
+.paralivetv h2{
+    font-size: 26px;
+}
+.child{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    width:100vw;
+    border-bottom:8px solid gray;
+}
+.childpara{
+     color:white;
+}
+.childpara h1{
+    font-size:50px ;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top:100px;
+}
+.childpara h2{
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 26px;
+}
+.faq{
+    width: 100vw;
+    background-color: black;
+    border-bottom: 8px solid gray;
+}
+.totalfaq{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: black;
+   
+}
+.faqtable{
+    color :white;
+
+}
+.faq h1{
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    color:white;
+    font-weight: 200;
+}
+.faqtable li{
+    margin:5px;
+    background-color: rgb(48, 48, 48);
+    font-size: 25px;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 80px;
+    text-align:left;
+    padding-top:10px;
+    list-style: none;
+    border-radius: 5px;
+}
+.faqsearchbar{
+    display: flex;
+    margin-bottom: 30px;
+}
+.faqsearchbar input{
+    height: 50px;
+    width: 400px;
+    margin-left: 2px;
+}
+.faqsearchbar button{
+    border-radius: 0px;
+    height: 54px;
+    border: 0px;
+}
+.faqpara{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.last{
+    background-color: black;
+    width: 100vw;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 350px;
+    margin-right: 350px;
+
+}
+.list ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(115, 115, 115);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    list-style: none;
+}
+.list .first ul li select{
+      border:1px solid white;
+      background-color: black;
+      color: white;
+      height: 30px;
+      border-radius: 5px;
+      width: 80px;
+      align-items: center;
+}
+
